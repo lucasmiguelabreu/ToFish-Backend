@@ -13,11 +13,10 @@ class App {
     middlewares() {
         this.app.use(express.json())
     }
-    
+
     routes() {
         this.app.use(routes)
     }
 }
 
 export default new App().app
-
