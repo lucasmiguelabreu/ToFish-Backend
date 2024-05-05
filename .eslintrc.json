@@ -12,6 +12,7 @@
     "rules": {
         "prettier/prettier": "off",
         "class-methods-use-this": "off",
-        "camelcase": "off"
+        "camelcase": "off",
+        "no-param-reassign": "off"
     }
 }
