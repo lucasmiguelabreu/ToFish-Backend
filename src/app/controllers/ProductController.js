@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 class ProductController {
     async store(request, response) {
         const schema = Yup.object({
-            name: Yup.string().requerid(),
+            name: Yup.string().required(),
             price: Yup.number().required(),
             category: Yup.string().required(),
         });
