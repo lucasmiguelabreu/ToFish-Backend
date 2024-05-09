@@ -24,3 +24,4 @@ routes.get('/categories', CategoryController.index);
 
 
 export default routes;
+
